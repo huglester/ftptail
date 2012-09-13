@@ -174,7 +174,7 @@ sub follow {
 	    unlink($tmpFileName);	    
 	    $lastEnd = $currentEnd;
 	} else {
-	    print STDERR ".";
+#	    print STDERR ".";
 	}
     }
 }
